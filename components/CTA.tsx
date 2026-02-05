@@ -44,7 +44,7 @@ export default function CTA() {
             </p>
 
             <div className="mt-6 flex justify-center">
-              <Button className="bg-white text-brand hover:bg-white/90">Book A Session ↗</Button>
+              <Button className="bg-white text-red-600 hover:bg-white/90">Book A Session ↗</Button>
             </div>
           </div>
         </div>

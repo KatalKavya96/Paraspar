@@ -3,10 +3,10 @@ import { Button } from "../ui/Button";
 
 export default function Header() {
   return (
-    <header className="pt-6">
+    <header className="pt-4 pb-4 bg-black/10 sticky top-0 z-50 backdrop-blur-sm">
       <Container>
         <div className="flex items-center justify-between">
-          <div className="font-serif text-lg text-brand">Paraspar</div>
+          <div className="font-serif text-lg text-brand">Pāraspar</div>
 
           <nav className="hidden items-center gap-6 text-sm text-muted md:flex">
             <a className="hover:text-text" href="#about">About</a>

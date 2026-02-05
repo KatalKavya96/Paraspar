@@ -24,12 +24,12 @@ export default function Experts() {
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {people.map((p) => (
-              <div key={p.name} className="rounded-2xl bg-white/60 p-4 shadow-soft">
-                <div className="relative aspect-square overflow-hidden rounded-2xl">
+              <div key={p.name} className="rounded-2xl bg-white/60 p-2 shadow-soft">
+                <div className="relative aspect-square overflow-hidden rounded-lg">
                   <Image src={p.img} alt={p.name} fill className="object-cover" />
                 </div>
-                <div className="mt-4 text-sm font-semibold">{p.name}</div>
-                <div className="text-xs text-muted">{p.role}</div>
+                <div className="p-1 mt-4 text-sm font-semibold">{p.name}</div>
+                <div className="p-1 text-xs text-muted">{p.role}</div>
               </div>
             ))}
           </div>

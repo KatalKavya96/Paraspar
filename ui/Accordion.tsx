@@ -18,7 +18,7 @@ export function Accordion({
           <div key={it.q} className="py-3">
             <button
               onClick={() => setOpen(isOpen ? null : idx)}
-              className="flex w-full items-center justify-between gap-4 text-left text-sm font-medium"
+              className="flex w-full items-center justify-between gap-4 text-left text-sm font-medium hover:cursor-pointer"
             >
               <span className="text-text">{it.q}</span>
               <span className={clsx("text-muted transition", isOpen && "rotate-180")}>⌄</span>

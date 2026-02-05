@@ -8,7 +8,7 @@ export default function WhyChoose() {
         <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
           <div>
             <h3 className="font-serif text-3xl">
-              Why Choose <span className="italic text-brand">Paraspar</span>
+              Why Choose <span className="italic text-brand">Pāraspar</span>
             </h3>
             <p className="mt-2 max-w-md text-sm text-muted">
               Paraspar provides care & professional mental health support for your journey.

@@ -31,7 +31,7 @@ export default function Hero() {
               <div className="mt-8 w-full max-w-sm rounded-2xl bg-surface p-4 shadow-soft">
                 <div className="flex items-center gap-3">
                   <div className="flex -space-x-2">
-                    {["/images/avatar-1.jpg", "/images/avatar-2.jpg", "/images/avatar-3.jpg"].map((src) => (
+                    {["/images/avatar-1.jpg", "/images/avatar-2.jpg", "/images/avatar-3.jpg","/images/avatar-4.jpg","/images/avatar-5.jpg"].map((src) => (
                       <div key={src} className="h-8 w-8 overflow-hidden rounded-full ring-2 ring-white">
                         <Image src={src} alt="" width={32} height={32} />
                       </div>

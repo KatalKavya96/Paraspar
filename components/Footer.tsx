@@ -11,33 +11,33 @@ export default function Footer() {
             </p>
             <div className="mt-6 text-xs text-muted">Our Social Links</div>
             <div className="mt-2 flex gap-3 text-sm text-muted">
-              <span>𝕏</span><span>◎</span><span>⌁</span><span>ⓘ</span>
+              <span className="hover:cursor-pointer">𝕏</span><span className="hover:cursor-pointer">◎</span><span className="hover:cursor-pointer">⌁</span><span className="hover:cursor-pointer">ⓘ</span>
             </div>
           </div>
 
           <div>
             <div className="text-xs font-semibold">Company</div>
             <ul className="mt-3 space-y-2 text-xs text-muted">
-              <li>Home</li>
-              <li>About Us</li>
-              <li>Blog</li>
+              <li className="hover:cursor-pointer">Home</li>
+              <li className="hover:cursor-pointer">About Us</li>
+              <li className="hover:cursor-pointer">Blog</li>
             </ul>
           </div>
 
           <div>
             <div className="text-xs font-semibold">More</div>
             <ul className="mt-3 space-y-2 text-xs text-muted">
-              <li>Review</li>
-              <li>Contact</li>
-              <li>License</li>
+              <li className="hover:cursor-pointer">Review</li>
+              <li className="hover:cursor-pointer">Contact</li>
+              <li className="hover:cursor-pointer">License</li>
             </ul>
           </div>
 
           <div>
-            <div className="text-xs font-semibold">Legal & Policy Links</div>
+            <div className="text-xs font-semibold hover:cursor-pointer">Legal & Policy Links</div>
             <ul className="mt-3 space-y-2 text-xs text-muted">
-              <li>Privacy Policy</li>
-              <li>Terms & Condition</li>
+              <li className="hover:cursor-pointer">Privacy Policy</li>
+              <li className="hover:cursor-pointer">Terms & Condition</li>
             </ul>
           </div>
         </div>
