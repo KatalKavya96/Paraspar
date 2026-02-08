@@ -16,14 +16,14 @@ export default function CTA() {
       <Container>
         <div className="relative overflow-hidden rounded-3xl bg-brand px-6 py-14 text-center text-white shadow-card sm:px-10">
           {/* rings */}
-          <div className="pointer-events-none absolute inset-0 opacity-40">
+          <div className="pointer-events-none absolute inset-0 opacity-100">
             <div className="absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20" />
             <div className="absolute left-1/2 top-1/2 h-[520px] w-[520px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20" />
             <div className="absolute left-1/2 top-1/2 h-[360px] w-[360px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20" />
           </div>
 
           {/* floating avatars */}
-          <div className="pointer-events-none absolute inset-0">
+          <div className="pointer-events-none absolute inset-0 bg-black/20">
             {avatars.map((a) => (
               <div
                 key={a.src}
