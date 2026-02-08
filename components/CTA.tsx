@@ -22,7 +22,6 @@ export default function CTA() {
             <div className="absolute left-1/2 top-1/2 h-[360px] w-[360px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/20" />
           </div>
 
-          {/* floating avatars */}
           <div className="pointer-events-none absolute inset-0 bg-black/20">
             {avatars.map((a) => (
               <div
